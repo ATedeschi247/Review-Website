@@ -2,28 +2,129 @@ html, body {
   height: 100%;
   width: 100%;
 }
+nav {
+  padding: 30px 60px 0px 90px;
+}
 nav li > a {
   color: #141414 !important;
   font-family: 'Montserrat';
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 nav li > a:hover {
   background-color: transparent !important;
   color: #10C9C3 !important;
 }
-h1, p {
+h1, p, a {
   font-family: 'Montserrat' !important;
 }
 #main-image {
+  margin-left: 15px;
   width: 100vw;
   background-size: cover;
-  height: 49vw;
+  height: 49vw !important;
   background-image: url(images/images/aidan-hancock-8RU4OuA6Yug-unsplash.png);
   background-repeat: no-repeat;
 }
-button {
+a.btn {
   background-color: #10C9C3;
   border-color: transparent;
   border-width: 0px;
   color: white !important;
+  border-radius: 0px !important;
+  padding: 15px 50px 15px 50px;
+}
+a.btn:hover {
+  background-color: #10C9C3 !important;
+}
+div#main-image > div.row {
+  height: inherit;
+}
+#DesAndDev {
+  padding-right: 10vw;
+  position: relative;
+  top: 30%;
+  transform: translateY(-30%);
+}
+#DesAndDev > p, #AboutUs > p {
+  color: #787878;
+  line-height: 2;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+#AboutUs {
+  margin: 100px 0px 100px 0px;
+}
+#AboutUs > p {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+#off-white {
+  padding-left: 45px;
+  height: inherit;
+}
+#bg-white {
+  background-color: #F5F5F5;
+}
+table, tbody, tr, #ProfessionalSkills div.container {
+  width: 100%;
+}
+#ProfessionalSkills td {
+  height: 0px;
+  border: 2px solid;
+}
+.progress {
+  border-color: #10C9C3 !important;
+}
+.remainder {
+  border-color: #787878 !important;
+}
+#full-image > img {
+  width: 100%;
+  height: 100%;
+}
+#full-image {
+  padding: 0px 0px 0px 0px !important;
+}
+#misc-info {
+  background-color: #10C9C3;
+  color: white;
+  min-height: 240px;
+  width: 100vw;
+  margin-left: 15px;
+}
+#work .col-sm-3 {
+  padding: 0px;
+}
+#work img {
+  width: 100% !important;
+}
+#misc-info img {
+  display: inline;
+  max-width: 60px;
+}
+#misc-info b {
+  font-size: 16px;
+}
+.img-icon {
+  text-align: center;
+  height: 72.85px;
+}
+.img-icon > img {
+  vertical-align: middle;
+  margin-top: auto;
+  /*margin-bottom: auto;*/
+}
+#misc-info div.col-sm-3 {
+  padding: 0px;
+}
+#misc-info > div.row {
+  margin-top: 90px;
+}
+#work {
+  width: 100vw;
+  margin-left: 15px;
+}
+#services > h1 {
+  margin-top: 80px;
+  font-family: 'Nunito Sans' !important;
 }
