@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>replit</title>
+  <title>Review Website</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -47,11 +47,11 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#"><b>HOME</b></a></li>
-            <li><a href="#"><b>ABOUT</b></a></li>
-            <li><a href="#"><b>WORK</b></a></li>
-            <li><a href="#"><b>SERVICES</b></a></li>
-            <li><a href="#"><b>TESTIMONIALS</b></a></li>
-            <li><a href="#"><b>CONTACT</b></a></li>
+            <li><a href="#AboutUs"><b>ABOUT</b></a></li>
+            <li><a href="#work"><b>WORK</b></a></li>
+            <li><a href="#services"><b>SERVICES</b></a></li>
+            <li><a href="#testimonial"><b>TESTIMONIALS</b></a></li>
+            <li><a href="#contact-form"><b>CONTACT</b></a></li>
           </ul>
         </div>
       </div>
@@ -86,22 +86,22 @@
       </div>
       <div id="off-white" class="col-sm-6 col-sm-pull-6">
         <div class="container-fluid">
-          <h2 class="text-center">Professional Skills</h2>
-          <p>UI/UX DESIGN 75%</p>
+          <h2>Professional Skills</h2>
+          <p><b>UI/UX DESIGN 75%</b></p>
           <table>
             <tr>
               <td class="progress" style="width: 75%"></td>
               <td class="remainder" style="width: 35%"></td>
             </tr>
           </table><br>
-          <p>WEB DEVELOPMENT 90%</p>
+          <p><b>WEB DEVELOPMENT 90%</b></p>
           <table>
             <tr>
               <td class="progress" style="width: 90%"></td>
               <td class="remainder" style="width: 10%"></td>
             </tr>
           </table><br>
-          <p>MARKETING 65%</p>
+          <p><b>MARKETING 65%</b></p>
           <table>
             <tr>
               <td class="progress" style="width: 65%"></td>
@@ -159,7 +159,7 @@
   <div id="work" class="container-fluid">
     <div class="row">
       <div class="col-sm-3">
-        <img src="images/images/Package Design Lemon Tea - fabian krotzer Frame.png">
+        <img onmouseover="blackout()" src="images/images/Package Design Lemon Tea - fabian krotzer Frame.png">
       </div>
       <div class="col-sm-3">
         <img src="images/images/Package Design Vanilla Powder - fabian krotzer Frame.png">
@@ -171,7 +171,7 @@
         <img src="images/images/Package Design Komaso - fabian krotzer Frame.png">
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="extra-bottom">
       <div class="col-sm-3">
         <img src="images/images/Package Design Spices - fabian krotzer Frame.png">
       </div>
@@ -191,24 +191,24 @@
     <div class="row">
       <div class="col-sm-3 text-center">
         <img src="images/images/icons/icon-05.png">
-        <h2>UI/UX DESIGN</h2>
-        <p>Be set fourth land god darkness make it wherein own</p>
+        <h2><b>UI/UX DESIGN</b></h2>
+        <p>Be set fourth land God darkness make it wherein own</p>
       </div>
       <div class="col-sm-3 text-center">
         <img src="images/images/icons/icon-06.png">
-        <h2>WEB DEVELOPMENT</h2>
+        <h2><b>WEB DEVELOPMENT</b></h2>
         <p>A she'd them bring void moving
           third she'd kind fill</p>
       </div>
       <div class="col-sm-3 text-center">
         <img src="images/images/icons/icon-07.png">
-        <h2>APP/MOBILE</h2>
+        <h2><b>APP/MOBILE</b></h2>
         <p>Dominion man second spirit he,
           earth they're creeping</p>
       </div>
       <div class="col-sm-3 text-center">
         <img src="images/images/icons/icon-08.png">
-        <h2>GAME DESIGN</h2>
+        <h2><b>GAME DESIGN</b></h2>
         <p>Morning his saying moveth it
           multiply appear life be</p>
       </div>
@@ -216,35 +216,36 @@
     <div class="row">
       <div class="col-sm-3 text-center">
         <img src="images/images/icons/icon-09.png">
-        <h2>SEO / MARKETING</h2>
+        <h2><b>SEO / MARKETING</b></h2>
         <p>Give won't after land fill creeping
           meat you, may</p>
       </div>
       <div class="col-sm-3 text-center">
         <img src="images/images/icons/icon-10.png">
-        <h2>PHOTOGRAPHY</h2>
+        <h2><b>PHOTOGRAPHY</b></h2>
         <p>Creepeth one seas cattle grass
           give moving saw give</p>
       </div>
       <div class="col-sm-3 text-center">
         <img src="images/images/icons/icon-11.png">
-        <h2>GRAPHIC DESIGN</h2>
+        <h2><b>GRAPHIC DESIGN</b></h2>
         <p>Open, great whales air rule for,
           fourth life whales</p>
       </div>
       <div class="col-sm-3 text-center">
         <img src="images/images/icons/icon-12.png">
-        <h2>ILLUSTRATIONS</h2>
+        <h2><b>ILLUSTRATIONS</b></h2>
         <p>Whales likeness hath, man kind
           for them air two won't</p>
       </div>
     </div>
   </div>
   <div id="testimonial" class="container-fluid text-center">
-    <p>“Outstanding job and exceeded all expectations. It was a pleasure
+    <p><span>“</span> Outstanding job and exceeded all expectations. It was a pleasure
       to work with them on a sizable first project and am looking
-      forward to start the next one asap.”
-      Michael Hopkins</p>
+      forward to start the next one asap. <span>”</span><br>
+      <i>MICHAEL HOPKINS</i>
+    </p>
   </div>
   <div id="logos">
     <div>
@@ -266,27 +267,60 @@
   <div id="contact-form" class="container-fluid text-center">
     <h1>Need a Project?</h1><br>
     <p>Let us know what you're looking for in an agency. We'll take a look and see
-      if this could be the start of something beautiful.</p>
+      if this could be the start of something beautiful.</p><br>
+    <span>
+
+      <form id="name">
+        <input placeholder="Your Name">
+      </form>
+      <form>
+        <input placeholder="Your Email">
+      </form>
+    </span>
+    <br><br>
+    <form>
+      <input placeholder="Your Title">
+    </form><br>
+    <form id="Comment">
+      <textarea placeholder="Your Comment" rows="6"></textarea>
+    </form><br>
+    <a class="btn btn-primary">Send Message</a>
+  </div>
+  <div id="footer" class="container-fluid">
     <div class="row">
-      <div class="col-sm-6">
-        <form>
-          <input value="Your Name">
-        </form>
+      <div class="col-sm-3">
+        <h2>Piroll Design, Inc.</h2>
+        <p>© 2017 Piroll. All rights reserved.<br>
+          Designed by robirurk.</p>
       </div>
-      <div class="col-sm-6">
-        <form>
-          <input value="Your Email">
-        </form>
+      <div class="col-sm-3 right">
+        <p>hello@pirolltheme.com<br>
+          +44 987 065 908</p>
+      </div>
+      <div class="col-sm-3 right">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>Projects</p>
+            <p>About</p>
+            <p>Services</p>
+            <p>Career</p>
+          </div>
+          <div class="col-sm-6">
+            <p>News</p>
+            <p>Events</p>
+            <p>Contact</p>
+            <p>Legal</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 right">
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>Instagram</p>
+        <p>Dribbble</p>
       </div>
     </div>
-    <form>
-      <input value="Your Title">
-    </form>
-    <form>
-      <input value="Your Comment">
-    </form>
   </div>
-  <br><br><br><br><br>
 
   <script src="script.js"></script>
 

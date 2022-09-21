@@ -14,8 +14,11 @@ nav li > a:hover {
   background-color: transparent !important;
   color: #10C9C3 !important;
 }
-h1, p, a {
+h1, p, a, h2 {
   font-family: 'Montserrat' !important;
+}
+b {
+  font-weight: bold !important;
 }
 #main-image {
   width: 100vw;
@@ -50,31 +53,52 @@ div#main-image > div.row {
   margin-bottom: 40px;
   font-size: 20px;
 }
+#DesAndDev a {
+  margin-top: 25px;
+}
 #AboutUs {
-  margin: 100px 0px 100px 0px;
+  margin: 110px 0px 110px 0px;
+  padding: 0px 30px 0px 30px;
 }
 #AboutUs > p {
   margin-left: 250px;
   margin-right: 250px;
 }
+#AboutUs > h1 {
+  margin-bottom: 35px;
+}
 #off-white {
-  padding-left: 45px;
+  padding-left: 90px;
+  padding-right: 85px;
   height: inherit;
+}
+#off-white h2 {
+  margin-bottom: 25px;
+  font-family: 'Nunito Sans' !important;
+}
+#off-white p {
+  font-family: 'Nunito Sans' !important;
 }
 #bg-white {
   background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 table, tbody, tr, #ProfessionalSkills div.container {
   width: 100%;
+}
+table {
+  margin-bottom: 20px;
 }
 #ProfessionalSkills td {
   height: 0px;
   border: 2px solid;
 }
-.progress {
+td.progress {
   border-color: #10C9C3 !important;
 }
-.remainder {
+td.remainder {
   border-color: #787878 !important;
 }
 #full-image > img {
@@ -92,6 +116,8 @@ table, tbody, tr, #ProfessionalSkills div.container {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 120px !important;
+  font-size: 13px;
   
 }
 #work .col-sm-3 {
@@ -99,6 +125,13 @@ table, tbody, tr, #ProfessionalSkills div.container {
 }
 #work img {
   width: 100% !important;
+}
+#work #extra-bottom {
+  margin-bottom: 100px;
+}
+#work {
+  width: 100vw;
+  background-color: #F5F5F5;
 }
 #misc-info img {
   display: inline;
@@ -108,27 +141,41 @@ table, tbody, tr, #ProfessionalSkills div.container {
   font-size: 16px;
 }
 .img-icon {
-  text-align: center;
+  text-align: right !important;
   height: 72.85px;
 }
 .img-icon > img {
   vertical-align: middle;
   margin-top: auto;
-  /*margin-bottom: auto;*/
 }
 #misc-info div.col-sm-3 {
   padding: 0px;
 }
+#misc-info div.col-sm-6 {
+  text-align: left;
+}
 #misc-info > div.row {
   display: inline;
   vertical-align: middle;
+  width: 90vw;
 }
-#work {
-  width: 100vw;
+#services {
+  margin: 0px 85px 100px 85px;
 }
-#services > h1 {
-  margin-top: 80px;
+#services > h1, #contact-form > h1 {
+  margin-top: 65px;
   font-family: 'Nunito Sans' !important;
+}
+#services h2 {
+  font-size: 16px;
+  font-family: 'Nunito Sans' !important;
+}
+#services p {
+  color: #787878;
+  font-size: 20px;
+}
+#services div.row {
+  margin-top: 50px;
 }
 #testimonial {
   background-color: #10C9C3;
@@ -137,18 +184,77 @@ table, tbody, tr, #ProfessionalSkills div.container {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0px 200px 0px 200px;
+}
+#testimonial > p {
+  font-size: 27px;
+  margin: 175px 0px 175px 0px;
+}
+#testimonial span {
+  font-size: 30px;
+}
+#testimonial i {
+  font-size: 15px;
+  font-style: normal;
+  font-family: 'Nunito Sans';
 }
 #logos {
   display: flex;
-  /*align-items: center;*/
   justify-content: center;  
 }
 #logos > div {
-  margin: 50px 5vw 50px 5vw;
+  margin: 70px 5vw 70px 5vw;
 }
 #logos img {
   width: 7vw;
 }
 #contact-form {
   background-color: #F5F5F5;
+}
+span > form {
+  display: inline;
+}
+span > form > input {
+  width: 23.8%;
+}
+#name {
+  margin-right: 2vw;
+}
+#contact-form p {
+  color: #787878 !important;
+  padding: 0px 375px 0px 375px;
+}
+#contact-form a {
+  margin-bottom: 100px;
+}
+textarea {
+  resize: none;
+}
+#comment {
+  height: 2em !important;
+}
+input, textarea {
+  border: 0px solid transparent;
+  color: #787878 !important;
+  font-size: 16px !important;
+  padding: 10px 19px 10px 19px;
+  width: 50%;
+}
+/* Footer */
+#footer {
+  background-color: #141414;
+  color: white;
+}
+#footer > div.row {
+  margin: 70px 60px 100px 60px;
+}
+#footer h2 {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+#footer p {
+  color: #787878;
+}
+.right {
+  padding-left: 100px !important;
 }
