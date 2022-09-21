@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 nav {
   padding: 30px 60px 0px 90px;
@@ -125,6 +126,9 @@ td.remainder {
 }
 #work img {
   width: 100% !important;
+}
+#work img:hover {
+  /*filter: grayscale(100%);*/
 }
 #work #extra-bottom {
   margin-bottom: 100px;
